@@ -1,0 +1,7 @@
+---
+
+# Call the aws instance role 
+
+- name: Create AWS Instance
+  hosts: localhost
+  gather_facts: false
